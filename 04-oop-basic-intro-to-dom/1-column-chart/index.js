@@ -13,7 +13,7 @@ export default class ColumnChart {
       this.label = label;
       this.value = value;
       this.link = link;
-      this.formatHeading = formatHeading; // ✅ Correct assignment
+      this.formatHeading = formatHeading;
       this.element = this.createElement(this.createTemplate());
     }
 
